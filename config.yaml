@@ -1,0 +1,25 @@
+# Customer Insights & Segmentation AI Platform Configuration
+
+app:
+  name: "Customer Insights & Segmentation AI Platform"
+  version: "1.0.0"
+  environment: "development"
+
+data:
+  max_file_size_mb: 100
+  supported_formats: [".csv", ".xlsx", ".xls"]
+  sample_size_limit: 1000000
+
+clustering:
+  k_range_min: 2
+  k_range_max: 12
+  random_state: 42
+  max_iterations: 300
+
+performance:
+  processing_timeout_minutes: 30
+  memory_limit_gb: 8
+  
+ai:
+  model_provider: "gemini"
+  max_tokens: 1000

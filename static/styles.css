@@ -1,0 +1,24 @@
+:root {
+    --btn-gradient-start: #B0E1FA;
+    --btn-gradient-end: #FBF0EA;
+    --btn-gradient-hover-start: #9CCEF5;
+    --btn-gradient-hover-end: #F4E2D8;
+    --btn-color: #2c3e50;
+}
+
+.stButton > button, .stButton.stButton > button, .stApp .stButton > button {
+    background: linear-gradient(135deg, var(--btn-gradient-start) 0%, var(--btn-gradient-end) 100%) !important;
+    color: var(--btn-color) !important;
+    border: none !important;
+    border-radius: 14px !important;
+    padding: 0.75rem 2rem !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.07) !important;
+}
+
+.stButton > button:hover, .stButton.stButton > button:hover, .stApp .stButton > button:hover {
+    background: linear-gradient(135deg, var(--btn-gradient-hover-start) 0%, var(--btn-gradient-hover-end) 100%) !important;
+    color: var(--btn-color) !important;
+    transform: translateY(-2px) !important;
+}
