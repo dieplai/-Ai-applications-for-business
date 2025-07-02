@@ -6,10 +6,10 @@ scipy>=1.10.0
 statsmodels>=0.14.0
 
 # Visualization
-matplotlib==3.7.2
-seaborn==0.12.2
+matplotlib>=3.7.2
+seaborn>=0.12.2
 plotly>=5.15.0
-kaleido==0.2.1
+kaleido>=0.2.1
 
 # Streamlit & Web App
 streamlit>=1.28.0
@@ -30,7 +30,4 @@ psutil>=5.9.0
 python-dotenv>=1.0.0
 
 # Optional: For better font support with reportlab on Linux
-# (uncomment if you encounter font issues)
 # pillow>=9.0.0
-
-# VSCode/Pylance sẽ tự nhận diện nếu đúng môi trường venv.
